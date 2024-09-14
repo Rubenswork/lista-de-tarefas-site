@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+        
+        <nav class="input-container">
+            <input type="text" class="lista" id="texto" placeholder="Adicione sua task...">
+            <input type="button" class="botão" value="add" id="botao" onclick="Adicionar()">
+        </nav>
+        <div id="container" class="container">
+            <!-- Tarefas serão adicionadas aqui -->
+        </div>
+    </main>
+    
+    <script src="list.js"></script>
+</body>
+</html>

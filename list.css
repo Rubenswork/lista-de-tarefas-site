@@ -1,0 +1,93 @@
+body {
+    background-color: darkgray;
+}
+
+main {
+    background-color: white;
+    width: 500px;
+    min-height: 600px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 0px gray;
+}
+
+.input-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o campo de texto e o botão */
+    margin-bottom: 20px; /* Espaço abaixo do contêiner */
+}
+
+.lista {
+    border-color: #2e2e2e;
+    border-style: double;
+    background-color: white;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.botão {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: gray;
+    margin-left: 10px; /* Espaço entre o campo de texto e o botão */
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Alinha as tarefas verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.tarefa {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens */
+    background-color: white;
+    width: 350px; /* Alinha com o campo de texto */
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    margin-top: 10px; /* Espaço acima de cada tarefa */
+    padding: 5px;
+}
+
+.tarefa > p {
+    flex: 1; /* Ocupa o espaço restante */
+    margin: 0;
+    text-align: center;
+}
+
+.tarefa > button {
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: black;
+    margin:0px 0px 0px 10px; /* Espaço entre o texto e o botão */
+    
+}
+
+.tarefa > button > img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.riscado {
+    text-decoration: line-through;
+    font-weight: bold; /* Aplica o texto riscado */
+}
